@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wintap", "wintap\wintap.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcxproj", "{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -29,6 +31,12 @@ Global
 		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Release|x64.ActiveCfg = Release|Win32
 		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Release|x86.ActiveCfg = Release|Win32
 		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Release|x86.Build.0 = Release|Win32
+		{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}.Debug|x64.ActiveCfg = Debug|Win32
+		{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}.Debug|x86.Build.0 = Debug|Win32
+		{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}.Release|x64.ActiveCfg = Release|Win32
+		{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}.Release|x86.ActiveCfg = Release|Win32
+		{107DE3DB-BE6C-465E-9C63-8BA72F7848AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
