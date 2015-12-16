@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VPN_Pivoting", "VPN_Pivoting.vcxproj", "{28819CD4-AABF-46B2-9A9C-134CE36FA367}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wintap", "wintap\wintap.vcxproj", "{E5B9A808-6CFA-4D08-9C57-06C4C991696F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,20 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Debug|x64.ActiveCfg = Debug|x64
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Debug|x64.Build.0 = Debug|x64
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Debug|x86.ActiveCfg = Debug|Win32
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Debug|x86.Build.0 = Debug|Win32
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Release|x64.ActiveCfg = Release|x64
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Release|x64.Build.0 = Release|x64
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Release|x86.ActiveCfg = Release|Win32
-		{28819CD4-AABF-46B2-9A9C-134CE36FA367}.Release|x86.Build.0 = Release|Win32
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Debug|x64.ActiveCfg = Debug|x64
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Debug|x64.Build.0 = Debug|x64
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Debug|x86.Build.0 = Debug|Win32
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Release|x64.ActiveCfg = Release|x64
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Release|x64.Build.0 = Release|x64
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Release|x86.ActiveCfg = Release|Win32
+		{E5B9A808-6CFA-4D08-9C57-06C4C991696F}.Release|x86.Build.0 = Release|Win32
+		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Debug|x64.ActiveCfg = Debug|Win32
+		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Debug|x86.Build.0 = Debug|Win32
+		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Release|x64.ActiveCfg = Release|Win32
+		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Release|x86.ActiveCfg = Release|Win32
+		{CC8E6E1A-7F66-458E-9A8C-67FAEC405DCD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
